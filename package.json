@@ -8,9 +8,11 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
+    "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "fontawesome": "^5.6.3",
     "jsonwebtoken": "^8.5.1",
+    "path": "^0.12.7",
     "react": "^16.13.1",
     "react-bootstrap": "^1.2.2",
     "react-dom": "^16.13.1",
@@ -18,12 +20,14 @@
     "react-scripts": "3.4.1",
     "toastr": "^2.1.4"
   },
+  
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "yarn start": "react-scripts start"
+    "yarn start": "react-scripts start",
+    "postinstall": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"

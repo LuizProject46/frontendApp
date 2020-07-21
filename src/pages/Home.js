@@ -1,6 +1,5 @@
 import React ,{useState,useEffect}from 'react';
 import "../assets/css/home.css";
-import Swal from 'sweetalert2';
 import api from '../services/api'
 import  toastr from '../../node_modules/toastr/toastr'
 

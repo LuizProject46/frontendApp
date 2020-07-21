@@ -71,7 +71,7 @@ export default function User({infos}){
                <div className='card'>
                  <div className='card-body'>
                      <div className='bio-container'>
-                         <div className='photo-perfil'>
+                         <div  className='photo-perfil'>
                              <img src={userIcon}/>
                              {/* <a style={{color: 'white'}} data-toggle="modal" data-target="#exampleModal"><i className='fa fa-pencil'></i>  Editar</a> */}
                              <Button className='btn-modal'  onClick={handleShow}>

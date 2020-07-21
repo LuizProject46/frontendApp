@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import  {Button,Modal,Form} from 'react-bootstrap'
 import Swal from 'sweetalert2'
 import api from '../services/api'
-
+import userIcon from "../assets/img/user.png"
 export default function User({infos}){
 
   const [name,setName] = useState('')
@@ -72,7 +72,7 @@ export default function User({infos}){
                  <div className='card-body'>
                      <div className='bio-container'>
                          <div className='photo-perfil'>
-                             <img src='https://avatars0.githubusercontent.com/u/43315377?s=400&u=40e92324773694d53bb306038c64b68f0b73e6cf&v=4'/>
+                             <img src={userIcon}/>
                              {/* <a style={{color: 'white'}} data-toggle="modal" data-target="#exampleModal"><i className='fa fa-pencil'></i>  Editar</a> */}
                              <Button className='btn-modal'  onClick={handleShow}>
                                <i className='fa fa-pencil'></i>

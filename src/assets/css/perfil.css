@@ -1,0 +1,95 @@
+.perfil-container {
+  display: flex;
+  justify-content: center;
+}
+
+.perfil-container form{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  
+}
+
+.perfil-container form input {
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ece7e7;
+  height: 35px;
+  color: #666;
+  padding: 5px;
+  
+  
+}
+.btn-modal2 {
+  
+  border-radius: 4px;
+  border: none;
+  height: 40px;
+  color: #fff;
+  background-color:rgb(148, 5, 148);
+  transition: 0.7s;
+  cursor: pointer;
+}
+.btn-modal2:hover {
+  
+  background-color:rgba(148, 5, 148, 0.87);
+  transition: 0.7s;
+  box-shadow: 1px 1px 7px rgb(148, 5, 148);
+}
+
+.bio-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-perfil img{
+  border-radius: 50%;
+  width: 200px;
+}
+
+.description-perfil{
+  display: flex;
+  justify-content: center;
+}
+
+.edit-perfil{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+
+
+.btn-modal{
+  margin-right: 10;
+  position: absolute;
+  /* z-index: 12; */
+  display: flex;
+  margin-top: -40px;
+  width: 100px;
+  border: none;
+  border-radius: 4px;
+  background-color: #00e68a;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  padding: 3px;
+  padding-left: 15px;
+  
+}
+.btn-modal:hover{
+  background-color:#00e68a;
+}
+.fa-pencil{
+  margin-top: 2px;
+  padding-right: 6px;
+}
+
+.bio-container label{
+
+  margin: 3px;
+  background-color: rgb(148, 5, 148);
+
+}

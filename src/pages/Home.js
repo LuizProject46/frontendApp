@@ -44,6 +44,7 @@ useEffect(()=>{
         
         id_user: userData.id,
         description: post,
+        name: userData.name
 
       },
       {headers: { Authorization : "Bearer " + token}}

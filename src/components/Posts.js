@@ -35,7 +35,7 @@ export default function Posts({posts}){
             <li key={post.id}>
             <div className='user-name'>
               <img src={userIcon}/>
-              <h3>Luiz Gustavo</h3>
+          <h3>{post.name}</h3>
               
             </div>
             <div className='description-puplish'>
